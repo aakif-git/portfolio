@@ -1,0 +1,63 @@
+/* General Body Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Section Styling */
+.section {
+  padding: 40px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Product Overview Layout */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-image {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+.description {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Features Styling */
+.features {
+  background-color: #e9f7fe;
+}
+
+.feature-box {
+  border: 2px solid #cce7f6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+/* Testimonials Styling */
+.testimonials {
+  background-color: #fff5e6;
+}
+
+.testimonial-box {
+  border: 2px solid #ffddb0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #fffaf2;
+}

@@ -1,0 +1,124 @@
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Fixed Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #004466;
+  color: white;
+  z-index: 1000;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Padding Top for content to clear fixed nav */
+.section {
+  padding: 80px 40px 40px 40px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  position: relative;
+}
+
+/* Product Overview Styling */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  position: relative; /* Needed for absolute child */
+}
+
+.product-image {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+.description {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Relative Positioning Example */
+.relative-heading {
+  position: relative;
+  left: 10px;
+  top: 5px;
+  color: #0077cc;
+}
+
+/* Absolute Positioned Button (Floating Action) */
+.fab {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 20px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.fab:hover {
+  background-color: #e65c00;
+}
+
+/* Features Styling */
+.features {
+  background-color: #e9f7fe;
+}
+
+.feature-box {
+  border: 2px solid #cce7f6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+/* Testimonials Styling */
+.testimonials {
+  background-color: #fff5e6;
+}
+
+.testimonial-box {
+  border: 2px solid #ffddb0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #fffaf2;
+}

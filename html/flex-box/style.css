@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 40px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+/* Flex Container */
+.flex-container {
+  display: flex;
+  flex-direction: row; /* Change to 'column' for vertical */
+  justify-content: space-around; /* Try: flex-start, center, space-between, etc. */
+  align-items: center; /* Try: flex-start, flex-end, stretch */
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Flex Items */
+.flex-item {
+  background-color: #0077cc;
+  color: white;
+  padding: 30px;
+  width: 120px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}

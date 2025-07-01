@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      color: #2a5d9f;
+    }
+
+    ul, ol {
+      background-color: #ffffff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 800px;
+      margin-top: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #2a5d9f;
+      color: white;
+      padding: 10px;
+    }
+
+    td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    form {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+      margin-top: 30px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #2a5d9f;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #1d4173;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Personal Page</h1>
+
+  <!-- Unordered List: Hobbies -->
+  <h2>My Hobbies</h2>
+  <ul>
+    <li>Reading</li>
+    <li>Drawing</li>
+    <li>Playing guitar</li>
+    <li>Gaming</li>
+    <li>Cycling</li>
+  </ul>
+
+  <!-- Ordered List: Top 5 Goals -->
+  <h2>My Top 5 Goals</h2>
+  <ol>
+    <li>Graduate with honors</li>
+    <li>Build a personal website</li>
+    <li>Learn full-stack development</li>
+    <li>Travel to Japan</li>
+    <li>Start a tech blog</li>
+  </ol>
+
+  <!-- Table: Weekly Schedule -->
+  <h2>My Weekly Schedule</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Morning</th>
+        <th>Afternoon</th>
+        <th>Evening</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday</td>
+        <td>Exercise</td>
+        <td>Classes</td>
+        <td>Study</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Reading</td>
+        <td>Project Work</td>
+        <td>Relax</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Workout</td>
+        <td>Classes</td>
+        <td>Watch a movie</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>Jogging</td>
+        <td>Lab Session</td>
+        <td>Group Study</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>Free Time</td>
+        <td>Work on assignments</td>
+        <td>Hang out with friends</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Contact Me Form -->
+  <h2>Contact Me</h2>
+  <form action="#" method="post">
+    <label for="contact-name">Name:</label>
+    <input type="text" id="contact-name" name="name" required>
+
+    <label for="contact-email">Email:</label>
+    <input type="email" id="contact-email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <input type="submit" value="Send Message">
+  </form>
+</body>
+</html>
+

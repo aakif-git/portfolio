@@ -1,0 +1,56 @@
+/* Body styling */
+/* Apply background image to the body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
+}
+
+/* Semi-transparent overlay for header using background-color */
+#main-header {
+  background-color: rgba(0, 119, 204, 0.85); /* translucent blue */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation bar styling using class selector */
+nav {
+  background-color: rgba(0, 68, 102, 0.9);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  display: inline-block;
+}
+
+.nav-link:hover {
+  background-color: rgba(0, 102, 153, 0.8);
+}
+
+/* Content section with separate background image */
+section {
+  padding: 20px;
+  margin: 20px;
+  background-image: url('https://www.transparenttextures.com/patterns/diamond-upholstery.png');
+  background-color: rgba(255, 255, 255, 0.85); /* light overlay */
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* Footer stays dark and clean */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
